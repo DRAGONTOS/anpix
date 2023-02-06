@@ -1,0 +1,19 @@
+#!/usr/bin/env python
+#
+# Imports
+import os 
+import sys
+#
+# Core.py
+if __name__ == '__main__':
+	  if sys.argv[1] == 'add':
+		   os.system("~/dev/anpix/commands/base/add.py")
+if __name__ == '__main__':
+	  if sys.argv[1] == 'install':
+		   os.system("~/dev/anpix/commands/install/install.py")
+if __name__ == '__main__':
+	  if sys.argv[1] == 'remove':
+		   os.system("~/dev/anpix/commands/remove/remove.py")
+if __name__ == '__main__':
+	  if sys.argv[1] == 'update':
+		   os.system("~/dev/anpix/commands/update/update.py")

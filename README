@@ -1,0 +1,11 @@
+Goals of Anpix:
+
+To make a cross-distrobox package manager just like APX from Vanilla OS, 
+I haven't forked anything and am making it from scratch as a side project/hobby project. 
+It's written in Python and shell, and it's the first "real" project I have worked on.
+
+1. Make it "cross" Distrobox compatible.
+2. Keep it small and not bloated.
+3. Make it easy to install.
+4. Make the host package manager work with it (starting with Debian).
+5. Make it easily configurable/customizable.
